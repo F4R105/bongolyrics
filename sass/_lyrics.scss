@@ -1,0 +1,42 @@
+#main-lyrics{
+
+    .container > div{
+        outline: 2px solid red;
+        width: 30%;
+    }
+
+    @media screen and (max-width: 1000px) {
+        #suggestions, #ads{
+            display: none;
+        }
+
+        #lyrics-container{
+            width: 100%;
+            max-width: 300px;
+            margin: 0 auto;
+        }
+    }
+
+    #lyrics-container{
+        text-align: center;
+        color: rgb(212, 212, 212);
+        padding: 2em 0;
+        min-width: 200px;
+    }
+
+    #song{
+        padding: 10px;
+        font-weight: bold;
+        font-size: 30px;
+    }
+
+    #artist{
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    #lyric{
+        padding: 10px;
+        line-height: 30px;
+    }
+}

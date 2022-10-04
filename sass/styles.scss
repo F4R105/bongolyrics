@@ -1,0 +1,46 @@
+@import 'general';
+
+.section-heading{
+    position: relative;
+    font-size: 30px;
+    text-transform: uppercase;
+    padding: 1em 0;
+    isolation: isolate;
+    margin-bottom: 50px;
+
+    .title-translate{
+        position: absolute;
+        bottom: 50%;
+        left: 16px;
+        z-index: -1;
+        color: grey;
+        opacity: 0.2;
+        font-weight: bold;
+        font-size: 40px;
+    }
+
+    .title-swahili{
+        color: white;
+    }
+}
+
+.suggestion-content{
+    color: white;
+
+    .song_suggested{
+        // outline: 2px solid blue;
+        display: flex;
+        padding: 10px 5px;
+        font-size: 18px;
+        transition: transform 0.2s ease;
+    }
+
+    .song_suggested:hover{
+        transform: translateX(10px);
+        border-bottom: 2px solid rgba(white,0.2);
+        border-top: 2px solid rgba(white,0.2);
+    }
+}
+
+@import 'home';
+@import 'media_queries'

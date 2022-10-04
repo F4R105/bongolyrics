@@ -1,0 +1,28 @@
+@media screen and (max-width: 900px) {
+
+    #navbar-logo-container{
+    
+        .container{
+            justify-content: start;
+        }
+    
+    }
+
+    nav .container{
+        justify-content: start;
+    }
+    #nav-links{
+        display: none;
+    }
+
+    #suggestions{
+        display: none;
+    }
+
+    // #searchBox{
+    //     // display: none;
+    //     padding-left: 0;
+    //     outline: 2px solid red;
+    // }
+
+}
